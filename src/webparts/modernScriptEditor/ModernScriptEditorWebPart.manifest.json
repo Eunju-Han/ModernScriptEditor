@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1700beb0-fe6e-4463-93c6-1450a5aa5df3",
+  "alias": "ModernScriptEditorWebPart",
+  "componentType": "WebPart",  
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "CIBC" },
+    "title": { "default": "Modern Script Editor" },
+    "description": { "default": "Allows you run html code" },
+    "officeFabricIconFontName": "FileHTML",
+    "properties": {      
+      "title": "Enter the title in Edit mode",
+      "script": "",
+      "removePadding": false
+    }
+  }]
+}

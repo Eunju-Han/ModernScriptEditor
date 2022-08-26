@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\webparts",
+    "\\src\\webparts\\modernScriptEditor",
+    "\\src\\webparts\\modernScriptEditor\\components"
+  ],
+  "SelectedNode": "\\src\\webparts\\modernScriptEditor\\components\\ModernScriptEditor.module.scss.ts",
+  "PreviewInSolutionExplorer": false
+}

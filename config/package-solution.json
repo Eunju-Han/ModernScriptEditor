@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {    
+    "name": "CIBCToday-O365-ModernScriptEditor-Solution",
+    "id": "a88b776f-6bc4-48c9-a21a-571ce25d8865",
+    "version": "1.3.2.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "CIBC SP Dev Team",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "This allows you run html or drop arbitrary script on a modern page."
+      },
+      "longDescription": {
+        "default": "This web part is similar to the classic Script Editor Web Part, and allows you run html or drop arbitrary script on a modern page. By default this web part is allowed on no-script sites."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cibctoday-o365-modern-script-editor Feature",
+        "description": "The feature that activates elements of the cibctoday-o365-modern-script-editor solution. This web part allows you run html or drop arbitrary script on a modern page.",
+        "id": "a3a9f036-5f0f-4a82-95fd-b22dc39d1a06",
+        "version": "1.3.2.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cibctoday-o365-modern-script-editor.sppkg"
+  }
+}

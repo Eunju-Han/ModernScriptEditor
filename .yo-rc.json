@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "cibc-o-365-cibc-today-modern-script-editor",
+    "libraryId": "a88b776f-6bc4-48c9-a21a-571ce25d8865",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CIBC-O365-CIBCToday-ModernScriptEditor",
+    "solutionShortDescription": "CIBC-O365-CIBCToday-ModernScriptEditor description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

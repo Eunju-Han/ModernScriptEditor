@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/s-KaiNet/spfx-fast-serve/master/schema/config.latest.schema.json",
+  "cli": {
+    "isLibraryComponent": false
+  },
+  "serve": {
+    "openUrl": "https://cibcpte.sharepoint.com/sites/CommTest/SitePages/ModernScriptTest.aspx?debug=true&noredir=true&debugManifestsFile=https%3A%2F%2Flocalhost%3A4321%2Ftemp%2Fmanifests.js",
+    "fullScreenErrors": true
+  },
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/sit-hometest/SitePages/TargetAudienceTest2.aspx?debug=true&noredir=true&debugManifestsFile=https%3A%2F%2Flocalhost%3A4321%2Ftemp%2Fmanifests.js"
+    },
+    "dev8-v1.3.0": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/Dev8-cibctoday-know2/SitePages/ModernScriptEditorTest_v1.3.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"      
+    },
+    "pte-ModernScriptTest": {
+      "pageUrl": "https://cibcpte.sharepoint.com/sites/CommTest/SitePages/ModernScriptTest.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"
+    }
+  }
+}

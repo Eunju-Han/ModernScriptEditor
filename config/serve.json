@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cibcpte.sharepoint.com/sites/CommTest/SitePages/ModernScriptTest.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"      
+    },
+    "dev8-workbench": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/dev8-cibctoday-home/_layouts/15/workbench.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"
+    },
+    "dev8-v1.3.0": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/Dev8-cibctoday-know2/SitePages/ModernScriptEditorTest_v1.3.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"      
+    },
+    "sit-home": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/sit-hometest/SitePages/TargetAudienceTest2.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"
+    },
+    "dit-home": {
+      "pageUrl": "https://cibcdev.sharepoint.com/sites/dit-homemodern/_layouts/15/workbench.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"
+    },
+    "pte-ModernScriptTest": {
+      "pageUrl": "https://cibcpte.sharepoint.com/sites/CommTest/SitePages/ModernScriptTest.aspx?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js"
+    }
+  }
+}
